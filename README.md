@@ -59,7 +59,9 @@ The paper itself is not redistributed here by default; this repository focuses o
 ├── README.md
 ├── requirements.txt
 ├── src/
-│   └── models.py
+│   ├── models.py
+│   ├── data.py
+│   └── evaluation.py
 ├── data/
 │   └── README.md
 └── models/
@@ -68,6 +70,6 @@ The paper itself is not redistributed here by default; this repository focuses o
 
 ## Reproducibility note
 
-This is a **recovered academic codebase**, not a rewritten project presented as if it had originally been structured this way. The core architectures were extracted from the recovered Colab notebook into `src/models.py` for easier inspection. The dataset files and trained weights are not committed.
+This is a **recovered academic codebase**, not a rewritten project presented as if it had originally been structured this way. The core architectures, preprocessing pipeline, feature extraction and classifier searches were extracted from the recovered Colab notebook into `src/` for easier inspection. The dataset files and trained weights are not committed.
 
 No license is included by default.
